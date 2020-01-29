@@ -19,11 +19,11 @@ class Snowflake {
    //actions that a snowflake can do
    // - fall
    // - teleports back to the top
-   if (mousePressed) {
-    y = y + 1; 
-   }else {
-     y = y + speed;
-   }
+   //if (mousePressed) {
+   // y = y + 1; 
+   //}else {
+   //  y = y + speed;
+   //}
    
    y = y + speed;
    if (y > height) {
